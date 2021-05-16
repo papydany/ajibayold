@@ -1,0 +1,332 @@
+body{
+    margin-top: 50px;
+}
+.row{
+    padding-right: 0px;
+    padding-left: 0px;
+
+
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.container {
+    width: auto;
+}
+/*  ================    navigation for home  ============================*/ 
+
+.nav > li {
+    
+    
+    width: 16%;
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    
+
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-weight: bolder;
+}
+
+.navbar-default {
+    background-color: #427051;
+    border-color: #427051;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: #fff;
+    background-color: #427051;
+}
+
+.navbar-default .navbar-nav > li > .active{
+    color: #fff;
+    background-color: #427051;
+}
+/*===================================   end of home navigation ======================*/
+
+/*  ===================================   home css  ===================================*/
+
+.topbanner{
+    background-color:#F7871E;
+    padding: 10px 0px;
+    border-bottom: 2px solid #ccc;
+}
+
+.toptext{
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: white;
+    margin-top: 40px;
+}
+.middlebody{
+   background-color:#F1F1F1;
+    padding: 30px 0px;
+
+}
+.mid{
+background-color:#fff;
+padding: 15px 0px;
+margin-top: 20px;
+
+}
+.midlogin{
+    background-color: #E7C160;
+    padding: 24px 20px;
+    margin-left: 50px;
+    border-radius: 3px;
+
+}
+.midlog2{
+    color: #fff;
+    font-weight: bolder;
+    margin: auto;
+    text-align: center;
+    background-color: #427051;
+    padding: 10px 0px;
+}
+
+.foot{
+background-color:;
+padding: 10px 0px;
+
+
+}
+.innerfoot{
+    background-color:#3C3B3B;
+    color: #fff;
+    padding: 10px;
+    font-weight: bolder;
+
+
+}
+.innerfoot > p{
+text-align: center;
+}
+/*   ==========================     general css   ============================*/
+
+.result1{
+    color: #000;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+.r > p{
+   
+    font-weight: bolder;
+    font-size: 1em;
+}
+.resultbg{
+    background-color: #eee;
+    padding: 5px;
+    margin-bottom: 7px;
+}
+@media print{
+
+.resultbg{
+    background-color: #eee;
+    padding: 5px;
+    margin-bottom: 7px;
+}
+    
+}
+.success{
+    text-align:center;
+    background-color:#E1FFE1;
+    color:#008000;
+    padding:5px 10px;
+    font-size:small;
+    margin-bottom:10px;
+    
+    width:70%;
+    margin-left:15%;
+    border-radius:5px;
+     border:solid 1px #B7FFB7;
+}
+.error{
+    text-align:center;
+    background-color:#ce2424;
+    color:#fff;
+   padding:5px 10px;
+    font-size:small;
+    margin-bottom:10px;
+    font-weight:bold;
+    width:70%;
+    margin-left:10%;
+    border-radius:5px;
+    
+}
+
+
+.exist{
+    text-align:center;
+    background-color:#008000;
+    color:#fff;
+   padding:5px 10px;
+    font-size:small;
+    margin-bottom:10px;
+    font-weight:bold;
+    width:70%;
+    margin-left:10%;
+    border-radius:5px;
+    
+}
+.bothmargin{
+	margin-right: 20px;
+	margin-left: 20px;
+	
+
+}
+.bottom_margin{
+
+margin-bottom: 20px;
+}
+.nopaddling{
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+/*==========================    admin css==========================*/
+#class_catinfo,
+#classinfo{
+	display: none;
+	color: red;
+}
+.headbanner{
+    background-color: #D3C86E;
+    color: #000;
+    font-size: 1.2em;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.formBg{
+    background-color: #F8F8F8;
+    padding:0 0 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+
+}
+
+.formBg2{
+    background-color: #eee;
+    padding: 10px;
+}
+
+.sub_rotate{
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari */
+    -moz-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+
+    height:150px;
+text-align:center;
+width:3px;
+position:relative;
+left:75px;
+top:70px;
+} 
+
+.sub_rotate2{
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari */
+    -moz-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+display:block;
+    height:150px;
+text-align:center;
+width:3px;
+position:relative;
+left:70px;
+top:70px;
+} 
+
+.whitecolor{
+    background-color: #fff;
+    padding-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+/*  =======================================   student css   ======================================= */
+.std_main{
+    background-color:#fff;
+padding: 30px;
+margin-top: 20px;
+min-height: 330px;
+border: 2px solid #D0CD66;
+border-radius: 4px;
+}
+.spanheader{
+    font-weight: bold;
+    background-color: #D0CD66;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 4px;
+}
+.t> tbody > tr > td{
+    border-bottom: 2px solid #000;
+}
+/*    ================================   end student css  = ==============================================*/
+/*  ======================================  teacher css =================================================*/
+.con{
+    margin-top: 20px;
+}
+.studentloginheader{
+    background-color: #D9534F;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 6px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.addpadding{
+padding: 10px 0px 20px;
+}
+.addcolorleftnav {
+background-color:#3C3B3B;
+display: block;
+min-height: 387px;
+
+}
+
+.addcolorleftnav >ul >li{
+background-color:#3C3B3B;
+border-left: #3C3B3B;
+border-right: #3C3B3B;
+border-radius: 0px 0px;
+
+
+}
+.addcolorleftnav >ul >li > a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+
+}
+.headbanner2{
+    background-color: #E1FFE1;
+    color: #008000;
+    font-size: 20px;
+    padding:5px 150px 5px 20px;
+    font: bold;
+    border: 2px solid #B7FFB7;
+}
+.bc{
+background-color: #E9EAED;
+}
+.teachheader{
+    background-color: #D3C86E;
+
+    font-weight: bolder;
+    font-size: 1.2em;
+    
+    padding: 5px 20px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}

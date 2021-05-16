@@ -1,0 +1,344 @@
+
+img{
+	max-width:100%;
+	height:auto;
+}
+.clear{
+	clear: both;
+}
+.no_left_padding{
+	padding-left: 0px;
+}
+#surinfo{
+	color: red;
+	display:none;
+}
+#nameinfo{
+color: red;
+display:none;
+}
+#dateinfo{
+color: red;
+display:none;
+}
+#sexinfo{
+color: red;
+display:none;
+}
+#emailinfo{
+color: red;
+display:none;
+}
+#passinfo{
+color: red;
+display:none;
+}
+.stage{
+	
+	display: none;
+}
+.showstage{
+	color:red;
+	display: block;
+}
+
+.nomargin{
+	margin: 0px;
+}
+/* heasder css*/
+
+.news{
+	/*background-color: #ED9C28;*/
+	color: #fff;
+	background-color:#47A447;
+	padding: 2px 5px;
+	margin-bottom: 2px;
+}
+
+.oldstudent{
+	color: #008000;
+	background-color:#E1FFE1;
+	padding: 5px;
+	border-radius: 5px;
+	margin-bottom: -15px;
+	text-align: center;
+	
+	border: 1px solid #B7FFB7;
+}
+.headstyle{
+
+	width: 100%;
+	background-color: #FFFCC5;
+	/*text-align: center;*/
+	padding:2% 0px;
+	display: block;
+	margin: 0px;
+}
+.bd_padding{
+
+	padding-top: 7%;
+	padding-bottom: 3%;
+
+}
+
+/* second row*/
+.second_RW{
+	/*background-color: #2A3037;*/
+	background-color: #DDDFDE;
+	padding: 1.5% 0px;
+}
+.hdcl{
+	/*color: #5CB85C;*/
+	color: #C8B146;
+	font-weight: bold;
+}
+
+.hdcl2{
+	/*color: #5CB85C;*/
+	color: #008000;
+	font-weight: bold;
+}
+.form{
+	padding-top: 15px;
+}
+
+/* navigation*/
+.navbar-collapse{
+	padding-left:0px;
+	padding-right: 0px; 
+}
+.navbar{
+	margin-bottom: 0px;
+	min-height: 0px;
+}
+.navbar-default{
+	background-color: #262626;
+	border-color: #262626;
+
+}
+.navbar-default .navbar-nav > li > a{
+	color:#fff;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	color: #fff;
+	background-color: #FF9330;
+}
+
+.navbar-default .navbar-nav > li > .active{
+	color: #fff;
+	background-color: #FF9330;
+}
+ .nav > li > a
+ {
+ 	padding: 10px 20%;
+ }
+
+ /*===========end of navigation css======*/
+
+ /*    new */
+
+ .news-bgcolor{ background: #86AF53;color: #fff;padding: 2px 15px !important;border-radius: 5px;}
+ a:hover > .news-bgcolor {background: #fff;color: #86AF53;}
+ /*----footer css----*/
+ .foot{
+ 	width: 100%;
+	background-color: #7F806C;
+	/*#2A3037;
+	text-align: center;*/
+	padding:1% 0px;
+	display: block;
+	margin: 0px;
+ }
+ .foot  p{
+ 	color: #fff;
+ }
+ .foot  h4{
+ 	color: #2A3037;
+ 	/*font-weight: bold;*/
+ }
+ 
+ .foot_lastDiv{
+ 	padding-top:3%;
+ }
+@media(min-width: 801px){
+.padding_RL{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.nav_rule{
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+ 
+}
+
+
+
+.nopadding{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.rd{
+	color:red;
+	font-weight: bold;
+}
+
+/*  admin page style   */
+.accountmargin {
+	margin-bottom: 10px;
+}
+.loginPage{
+	border:2px solid #00cc00;
+	padding: 20px 30px;
+	border-radius: 5px;
+}
+.message{
+	color: red;
+}
+.admin_achor > a{
+	color:#000;
+	font-weight: bold;
+
+}
+.admin_button > .btn{
+	text-align: left;
+}
+.admin_button > .btn-block{
+	padding-left: 5px;
+}
+.admin_header{
+	color:#008000;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom:3%;
+}
+.txt_b{
+	font-weight: bold;
+	padding: 10px,0;
+
+}
+.txt_a{
+	margin-top:2em;
+	line-height: 2.5em; 
+	font-size:1.2em;
+	border:1px solid #ccc;
+	border-radius:5px;
+	padding: 20px;
+	margin-bottom:20px; 
+}
+.ch{
+	min-height: 400px;
+
+}
+.txt_c{
+	border:4px solid #BD882B;
+   	border-radius: 4px; 
+
+}
+.txt_w{
+	color: #000;
+	background-color: #BD882B;
+	font-weight: bold;
+padding-top: 4px;
+	text-align: center;
+	border-radius: 0px;
+	margin: 10px 0px 30px 15px;
+}
+.bgc{
+	background-color: #D2322D;
+	padding: 20px 0;
+}
+.contctMargin{
+	margin-top: 10%;
+}
+.contTxt{
+	font-weight: bold;
+	font-size: 1.3em;
+	padding: 5px 0px 20px 0px;
+
+}
+.conMsg{
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 20px 0px;
+}
+.ftheader >h4{
+	font-weight: bold;
+	color: black;
+
+}
+.ftft >p{
+	color: #D5BD97;
+	font-weight: bolder;
+}
+
+/* ======= Mobile media =====  */
+@media(max-width: 480px){
+
+.ch{
+	min-height: 200px;
+
+}
+.contctMargin{
+	margin-top:4% ;
+}
+
+.magin_top{
+	margin-top: 10%;
+}
+
+.left_padding{
+	padding-left: 15px;
+
+}
+
+
+
+	}
+/*====  end of mobile Css =====  */
+
+/* ========= Beginning of tablet ===========*/
+@media  (min-width:481px) and (max-width:800px){
+
+.navbar-nav{
+margin: 7.5px -10px;
+
+}
+.scrollToTop{
+   width: 48px;
+	padding:10px; 
+	text-align:center; 
+	background: black;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	position:fixed;
+	top:950px;
+	right:40px;
+	display:none;
+	border-radius: 50%;
+}
+
+}
+
+/*======== end of tablet  ==== */
+	.scrollToTop{
+	width: 48px;
+	padding:10px; 
+	text-align:center; 
+	background: black;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	position:fixed;
+	top:650px;
+	right:40px;
+	display:none;
+	border-radius: 50%;
+}
+	.scrollToTop:hover{
+	text-decoration:none;
+}
